@@ -1,0 +1,29 @@
+#Función de suma, se deben ingresar 3 digitos
+#Ejemplo
+# llamado de la función:  Suma(23,4,3)
+# "La suma es" 30
+
+def suma(num1,num2,num3):
+
+	return "La suma es "+str(num1+num2+num3)
+
+
+
+
+
+class Coche:
+    
+    def __init__(self):
+        self.num_puertas = 0
+
+    def agregar_puerta(self):
+        self.num_puertas += 1
+
+
+
+# Creación de un objeto Coche y llamada al método agregar_puerta()
+#miCoche = Coche()
+#miCoche.agregar_puerta()
+
+# Mostrar el número de puertas del objeto
+#print(miCoche.num_puertas) 
